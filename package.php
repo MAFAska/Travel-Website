@@ -1,0 +1,253 @@
+<html>
+<head>
+    <title>package</title>
+
+    <!--swiper css link-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+
+    <!--custom css file link-->
+    <link rel="stylesheet" href="css/style.css"/>
+
+</head>
+<body>
+
+    <!--header section starts-->
+    <section class="header">
+        <a href="home.php"class="logo">travel.</a>
+        
+        <nav class="navbar">
+            <a href="home.php">home</a>
+            <a href="about.php">about</a>
+            <a href="package.php">package</a>
+            <a href="book.php">book</a>
+            <a href="contact.php">contact</a>
+            <a href="cond.php">customer details</a>
+        </nav>
+
+        <div id="menu-btn" class="fa fa-bars"></div>
+
+
+    </section>
+
+     <!--header section ends-->
+     <div class="heading" style="background: url(image/header-bg-2.png)no-repeat;">
+        <h1>packages</h1>
+     </div>
+
+     <!--packages section starts-->
+     <section class="packages">
+        <h1 class="heading-title">top destinations</h1>
+        <div class="box-container">
+
+            <div class="box">
+            <div class="image">
+                <img src="image/img-1.jpg"alt="">
+            </div>
+            <div class="content">
+                <h3>adventure and tour</h3>
+                <p>AdventureSmith Explorations is the global leader in small ship, adventure cruise vacations. Company founder Todd Smith helped pioneer the concept of wilderness cruising that combines the comforts of a small cruise ship with the adventure of sea kayaking, hiking and exploring remote wilderness areas ashore. We match travelers with the top names in small ship cruising as well as with intimate, boutique ships that may not make the radar of most travelers. </p>
+                <a href="book.php" class="btn">book now</a>
+            </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="image/img-2.jpg"alt="">
+                </div>
+                <div class="content">
+                    <h3>old place and tour</h3>
+                    <p>Hatfield House, once home to England’s Tudor monarch, Queen Elizabeth I, sits just north of London. With this private tour, save the hassle of catching trains and cabs by traveling to the house by private car. Then, explore the Jacobean manor and its gardens, including the 16th-century Old Palace, where the young Elizabeth spent her childhood, as a guide details their history. Entry fees and hotel pickup and drop-off included</p>
+                    <a href="book.php" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="image/img-3.jpg"alt="">
+                </div>
+                <div class="content">
+                    <h3>beautiful beach tour</h3>
+                    <p>we only offer free pick up and drop off from Denarau Island hotels and there is a cost for transport outside of Denarau Island hotels. If you are staying at a Resort outside of Denarau Island we can provide transport at an additional cost. After we have received your booking we will contact you to confirm transport requirements and will advise you of the cost and pick up times from your Resort. All transport fees are paid separately on the day at our booth and we accept cash or credit card payments. If you prefer you can organise your own transport through your Hotel or Resort to Port Denarau.</p>
+                    <a href="book.php" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="image/img-4.jpg"alt="">
+                </div>
+                <div class="content">
+                    <h3>huge hotels and tour</h3>
+                    <p>You can stay in castle hotels that have been visited by a king or queen, and have changed little for centuries. You can stay in castle hotels close to a city, or castle hotels that sit amongst tranquil mountains. You can sleep in a hand-carved four-poster bed and enjoy dinner in a stone-walled restaurant.</p>
+                    <a href="book.php" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="image/img-5.jpg"alt="">
+                </div>
+                <div class="content">
+                    <h3>desert and tour</h3>
+                    <p>A unique way to explore the incredible natural beauty of Northern Arizona. A personal, family-owned service with a fun ancestral twist! Our private and small group Arizona desert tours allow us to offer a more personalized, informative experience and provide guests with ample opportunity to take in the sights without large crowds.</p>
+                    <a href="book.php" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="image/img-6.jpg"alt="">
+                </div>
+                <div class="content">
+                    <h3>natural place and tour</h3>
+                    <p>How about a bit of adventure with your wildlife conservation? Our unique trips include fun and exhilarating activities mixed in with working alongside local researchers to help study and protect sea turtles and other wildlife, including snorkeling, diving, kayaking, hiking, and more. Join one of our unique conservation expeditions below for the perfect combination of fun and learning.</p>
+                    <a href="book.php" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="image/img-7.jpg"alt="">
+                </div>
+                <div class="content">
+                    <h3>adventure and tour</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit tenetur labore fugiat, repellat dolorum vero atque ad quod officiis dignissimos quasi inventore quos necessitatibus illum, similique a eveniet ut facere!</p>
+                    <a href="book.php" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="image/img-8.jpg"alt="">
+                </div>
+                <div class="content">
+                    <h3>adventure and tour</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit tenetur labore fugiat, repellat dolorum vero atque ad quod officiis dignissimos quasi inventore quos necessitatibus illum, similique a eveniet ut facere!</p>
+                    <a href="book.php" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="image/img-9.jpg"alt="">
+                </div>
+                <div class="content">
+                    <h3>adventure and tour</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit tenetur labore fugiat, repellat dolorum vero atque ad quod officiis dignissimos quasi inventore quos necessitatibus illum, similique a eveniet ut facere!</p>
+                    <a href="book.php" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="image/img-10.jpg"alt="">
+                </div>
+                <div class="content">
+                    <h3>adventure and tour</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit tenetur labore fugiat, repellat dolorum vero atque ad quod officiis dignissimos quasi inventore quos necessitatibus illum, similique a eveniet ut facere!</p>
+                    <a href="book.php" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="image/img-11.jpg"alt="">
+                </div>
+                <div class="content">
+                    <h3>adventure and tour</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit tenetur labore fugiat, repellat dolorum vero atque ad quod officiis dignissimos quasi inventore quos necessitatibus illum, similique a eveniet ut facere!</p>
+                    <a href="book.php" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="image/img-12.jpg"alt="">
+                </div>
+                <div class="content">
+                    <h3>adventure and tour</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit tenetur labore fugiat, repellat dolorum vero atque ad quod officiis dignissimos quasi inventore quos necessitatibus illum, similique a eveniet ut facere!</p>
+                    <a href="book.php" class="btn">book now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="load-more"><a href="package.php"class="btn">load more</a></div>
+     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+     <!--packages section ends-->
+
+
+
+
+
+
+
+
+
+
+<!--footer section starts-->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="home.php"><i class="fa fa-angle-right"></i>home</a>
+            <a href="about.php"><i class="fa fa-angle-right"></i>about</a>
+            <a href="package.php"><i class="fa fa-angle-right"></i>package</a>
+            <a href="book.php"><i class="fa fa-angle-right"></i>book</a>
+            <a href="contact.php"><i class="fa fa-angle-right"></i>contact</a>
+            <a href="cond.php"><i class="fa fa-angle-right"></i>customer details</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#"><i class="fa fa-angle-right"></i>ask questions</a>
+            <a href="#"><i class="fa fa-angle-right"></i>about us</a>
+            <a href="#"><i class="fa fa-angle-right"></i>privacy policy</a>
+            <a href="#"><i class="fa fa-angle-right"></i>terms of use</a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"><i class="fa fa-phone"></i>+94743412783</a>
+            <a href="#"><i class="fa fa-phone"></i>+111-222-3333</a>
+            <a href="#"><i class="fa fa-envelope"></i>askafathima84@gmail.com</a>
+            <a href="#"><i class="fa fa-map"></i>kurunegala, Srilanka-60160</a>
+        </div>  
+        
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#"><i class="fa fa-facebook"></i>facebook</a>
+            <a href="#"><i class="fa fa-twitter"></i>twitter</a>
+            <a href="#"><i class="fa fa-instagram"></i>instagram</a>
+            <a href="#"><i class="fa fa-linkedin"></i>linkedin</a>
+        </div>
+    </div>
+
+    <div class="credit">created by <span> Mis. Fathima Aska </span> |all right reserved!</div>
+
+</section>
+<!--footer section ends-->
+
+<!--swiper js link-->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!--custom js file link-->  
+<script src="js/script.js"></script>   
+</body>
+</html>
+

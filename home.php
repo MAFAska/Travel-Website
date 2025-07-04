@@ -1,0 +1,246 @@
+<html>
+<head>
+    <title>home</title>
+
+    <!--swiper css link-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+
+    <!--custom css file link-->
+    <link rel="stylesheet" href="css/style.css"/>
+
+</head>
+<body>
+
+    <!--header section starts-->
+    <section class="header">
+        <a href="home.php"class="logo">travel.</a>
+        
+        <nav class="navbar">
+            <a href="home.php">home</a>
+            <a href="about.php">about</a>
+            <a href="package.php">package</a>
+            <a href="book.php">book</a>
+            <a href="contact.php">contact</a>
+            <a href="cond.php">customer details</a>
+
+        </nav>
+
+        <div id="menu-btn" class="fa fa-bars"></div>
+
+
+    </section>
+
+     <!--header section ends-->
+
+     <!--home section starts-->
+     <section class="home">
+        <div class=" swiper home-slider">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide" style="background: url(image/home-slide-1.jpg)no-repeat">
+                <div class="content">
+                <span>explore, discover, travel</span>
+                <h3>travel around the world</h3>
+                <a href="package.php" class="btn">discover more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide" style="background: url(image/home-slide-2.jpg)no-repeat">
+                <div class="content">
+                <span>explore, discover, travel</span>
+                <h3>discover the new places</h3>
+                <a href="package.php" class="btn">discover more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide" style="background: url(image/home-slide-3.jpg)no-repeat">
+                <div class="content">
+                <span>explore, discover, travel</span>
+                <h3>make tour worthwhile</h3>
+                <a href="package.php" class="btn">discover more</a>
+                </div>
+            </div>  
+
+        </div>
+     </section>
+
+      <!--home section ends-->
+
+     <!--service section starts-->
+     <section class="services">
+        <h1 class="heading-title">our services</h1>
+        <div class="box-container">
+
+           <div class="box">
+            <img src="image/icon-1.png"alt="">
+            <h3>adventure</h3>
+           </div>
+
+           <div class="box">
+            <img src="image/icon-2.png"alt="">
+            <h3>tour guide</h3>
+           </div>
+
+           <div class="box">
+            <img src="image/icon-3.png"alt="">
+            <h3>trekking</h3>
+           </div>
+
+           <div class="box">
+            <img src="image/icon-4.png"alt="">
+            <h3>camp fire</h3>
+           </div>
+
+           <div class="box">
+            <img src="image/icon-5.png"alt="">
+            <h3>off road</h3>
+           </div>
+
+           <div class="box">
+            <img src="image/icon-6.png"alt="">
+            <h3>camping</h3>
+           </div>
+        </div>
+     </section>
+
+     <!--service section ends-->
+
+     <!--home about section starts-->
+     <section class="home-about">
+        <div class="image">
+            <img src="image/about-img.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>about us</h3>
+            <p> Tours has helped generations of guests experience the beauty and wonder of Europe, forge new friendships, and be welcomed home far away from their homes. Founded in 1932, our reputation for excellence is rooted in our signature Irish hospitality, the genuine warmth of our guides, and a talent for fostering lasting friendships on the road. We offer exclusive access, authentic experiences, and in-depth knowledge that, in the spirit of our heritage, often begins with a story.</p>
+            <a href="about.php" class="btn">read more</a>
+        </div>
+     </section>
+
+     <!--home about section ends-->
+
+     <!--home packages section starts-->
+     <section class="home-packages">
+        <h1 class="heading-title">our packages</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="image/img-1.jpg"alt="">
+                </div>
+                <div class="content">
+                    <h3>adventure & tour</h3>
+                    <p>AdventureSmith Explorations is the global leader in small ship, adventure cruise vacations. Company founder Todd Smith helped pioneer the concept of wilderness cruising that combines the comforts of a small cruise ship with the adventure of sea kayaking, hiking and exploring remote wilderness areas ashore. We match travelers with the top names in small ship cruising as well as with intimate, boutique ships that may not make the radar of most travelers. </p>
+                    <a href="book.php" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="image/img-2.jpg"alt="">
+                </div>
+                <div class="content">
+                    <h3>old place & tour</h3>
+                    <p>Hatfield House, once home to England’s Tudor monarch, Queen Elizabeth I, sits just north of London. With this private tour, save the hassle of catching trains and cabs by traveling to the house by private car. Then, explore the Jacobean manor and its gardens, including the 16th-century Old Palace, where the young Elizabeth spent her childhood, as a guide details their history. Entry fees and hotel pickup and drop-off included.</p>
+                    <a href="book.php" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="image/img-3.jpg"alt="">
+                </div>
+                <div class="content">
+                    <h3>beautiful beach tour</h3>
+                    <p>we only offer free pick up and drop off from Denarau Island hotels and there is a cost for transport outside of Denarau Island hotels. If you are staying at a Resort outside of Denarau Island we can provide transport at an additional cost. After we have received your booking we will contact you to confirm transport requirements and will advise you of the cost and pick up times from your Resort. All transport fees are paid separately on the day at our booth and we accept cash or credit card payments. If you prefer you can organise your own transport through your Hotel or Resort to Port Denarau. </p>
+                    <a href="book.php" class="btn">book now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="load-more"><a href="package.php"class="btn">load more</a></div>
+
+
+     </section>
+
+     <!--home packages section ends-->
+
+     <!--home offer section starts-->
+     <section class="home-offer">
+        <div class="content">
+            <h3>up to 50% off</h3>
+            <p>Get everything you need to succeed as a travel agent. Start saving up to 70% on cruises and hotels and up to 50% on theme parks and movie tickets. Plus earn up to 90% commission on select travel bookings.</p>
+            <a href="book.php" class="btn">book now</a>
+        </div>
+     </section>
+
+
+
+
+
+
+     <!--home offer section ends-->
+
+
+
+
+
+
+
+
+
+
+
+<!--footer section starts-->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="home.php"><i class="fa fa-angle-right"></i>home</a>
+            <a href="about.php"><i class="fa fa-angle-right"></i>about</a>
+            <a href="package.php"><i class="fa fa-angle-right"></i>package</a>
+            <a href="book.php"><i class="fa fa-angle-right"></i>book</a>
+            <a href="contact.php"><i class="fa fa-angle-right"></i>contact</a>
+            <a href="cond.php"><i class="fa fa-angle-right"></i>customer details</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#"><i class="fa fa-angle-right"></i>ask questions</a>
+            <a href="#"><i class="fa fa-angle-right"></i>about us</a>
+            <a href="#"><i class="fa fa-angle-right"></i>privacy policy</a>
+            <a href="#"><i class="fa fa-angle-right"></i>terms of use</a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"><i class="fa fa-phone"></i>+94743412783</a>
+            <a href="#"><i class="fa fa-phone"></i>+111-222-3333</a>
+            <a href="#"><i class="fa fa-envelope"></i>askafathima84@gmail.com</a>
+            <a href="#"><i class="fa fa-map"></i>kurunegala, Srilanka-60160</a>
+        </div>  
+        
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#"><i class="fa fa-facebook-f"></i>facebook</a>
+            <a href="#"><i class="fa fa-twitter"></i>twitter</a>
+            <a href="#"><i class="fa fa-instagram"></i>instagram</a>
+            <a href="#"><i class="fa fa-linkedin"></i>linkedin</a>
+        </div>
+    </div>
+
+    <div class="credit">created by <span> Mis. Fathima Aska </span> |all right reserved!</div>
+
+</section>
+<!--footer section ends-->
+
+<!--swiper js link-->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!--custom js file link-->  
+<script src="js/script.js"></script>   
+</body>
+</html>
